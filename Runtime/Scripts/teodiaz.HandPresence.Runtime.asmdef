@@ -1,0 +1,16 @@
+{
+    "name": "TeoDiaz.XR.Runtime",
+    "references": [
+        "GUID:b08549238d078eb4f8333887c90afc72",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
