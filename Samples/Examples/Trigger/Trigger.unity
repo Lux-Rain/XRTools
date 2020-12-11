@@ -565,6 +565,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3665fddcd8965334282feea278e46eaa, type: 3}
+--- !u!65 &127033311 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 4795614154727431481, guid: 3665fddcd8965334282feea278e46eaa, type: 3}
+  m_PrefabInstance: {fileID: 127033310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &130784527
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,6 +964,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1121347cf8c051e40866f26fff3fde50, type: 3}
+--- !u!136 &212623671 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 937355562214044659, guid: 1121347cf8c051e40866f26fff3fde50, type: 3}
+  m_PrefabInstance: {fileID: 212623670}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &245480931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,7 +2623,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-684150
+  m_Name: pb_Mesh-1092032
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3372,13 +3382,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 695286167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c87ea1fcf25f2a34a977566741d08106, type: 3}
+  m_Script: {fileID: 11500000, guid: 073430e24a6b0de48a84a93ebcc6122e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   once: 0
   colliders:
-  - {fileID: 4795614154727431481, guid: 3665fddcd8965334282feea278e46eaa, type: 3}
-  - {fileID: 1020746229}
+  - {fileID: 0}
+  - {fileID: 0}
   onTriggerEnterMessage: 
   onTriggerExitMessage: 
   TriggerEnter:
@@ -3391,7 +3401,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: Open
           m_BoolArgument: 0
@@ -10875,12 +10885,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1330427914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c87ea1fcf25f2a34a977566741d08106, type: 3}
+  m_Script: {fileID: 11500000, guid: 073430e24a6b0de48a84a93ebcc6122e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   once: 0
   colliders:
-  - {fileID: 4795614154727431481, guid: 3665fddcd8965334282feea278e46eaa, type: 3}
+  - {fileID: 127033311}
   - {fileID: 1020746229}
   onTriggerEnterMessage: 
   onTriggerExitMessage: 
@@ -12540,7 +12550,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-785116
+  m_Name: pb_Mesh20594
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13032,7 +13042,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-502094
+  m_Name: pb_Mesh-1092036
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14472,7 +14482,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-618620
+  m_Name: pb_Mesh-1092042
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14636,7 +14646,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1165420
+  m_Name: pb_Mesh20690
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14800,7 +14810,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-510806
+  m_Name: pb_Mesh-1092012
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15353,10 +15363,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2061973280}
-    - target: {fileID: 6319069929770867283, guid: d2f424b5fa0cb2344b22178d503ddf7f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6452962693235293042, guid: d2f424b5fa0cb2344b22178d503ddf7f, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -15383,6 +15389,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 272103865210284967, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
+      propertyPath: colliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 212623671}
+    - target: {fileID: 272103865210284967, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
+      propertyPath: TriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1137221700}
     - target: {fileID: 2127198767878967534, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -15391,10 +15405,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1778553954}
-    - target: {fileID: 2647803050553115426, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 2788960395449826931, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -15455,34 +15465,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1830980857}
-    - target: {fileID: 8968248836991972813, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
-      propertyPath: TriggerEnter.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8968248836991972813, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
-      propertyPath: TriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8968248836991972813, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
-      propertyPath: TriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1137221700}
-    - target: {fileID: 8968248836991972813, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
-      propertyPath: TriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8968248836991972813, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
-      propertyPath: TriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
-    - target: {fileID: 8968248836991972813, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
-      propertyPath: TriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.ParticleSystem, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8968248836991972813, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
-      propertyPath: TriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 9192853868661739797, guid: e00180160e80e7a44bc1718af18e2c98, type: 3}
       propertyPath: m_Name
       value: DoorTrigger
