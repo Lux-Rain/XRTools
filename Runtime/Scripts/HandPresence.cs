@@ -244,6 +244,8 @@ namespace Com.TeoDiaz.VR
                 }
             }
         }
+
+
         /// <summary>
         /// Active une vibration de durée 0.1
         /// </summary>

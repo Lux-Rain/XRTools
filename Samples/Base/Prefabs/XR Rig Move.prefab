@@ -616,7 +616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a496e1b6c7de09b41af8167b77410b62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deviceCharacteristics: 0
+  deviceCharacteristics: 320
   playerCamera: {fileID: 937355561985993448}
   direction: {fileID: 937355562542299890}
   speed: 10
